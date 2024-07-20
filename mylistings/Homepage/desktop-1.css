@@ -1205,16 +1205,16 @@
     line-height: 23px;
   }
 }
-#my-footer{
-  background-color:#90EE90;
+#my-footer {
+  background-color: #90ee90;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
   border: #000;
   border-radius: 3px;
 }
-#my-footer .footnote{
+#my-footer .footnote {
   text-align: center;
   align-items: center;
-  font:bold 30px Arial,Helvetica,sans-serif;
+  font: bold 30px Arial, Helvetica, sans-serif;
 }
