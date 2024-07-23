@@ -1,0 +1,17 @@
+.clickme {
+  /* General button styles */
+  display: inline-block; /* Makes the element behave like a box */
+  padding: 10px 20px; /* Padding for text inside the button */
+  text-decoration: none; /* Removes underline from text by default */
+  color: #000; /* Text color */
+  background-color: #667bc6; /* Background color (green) */
+  border: none; /* Removes default border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Enables smooth hover transition */
+}
+
+a:hover {
+  /* Hover effects */
+  background-color: #3e8e41; /* Changes background color on hover (darker green) */
+}
