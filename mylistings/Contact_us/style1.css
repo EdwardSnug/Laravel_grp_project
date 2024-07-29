@@ -1,0 +1,82 @@
+.body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #667bc6;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #4535c1;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  text-align: center;
+}
+
+.contact-info ul,
+.social-media ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.social-media {
+  margin: 2rem auto; /* Add margin for spacing */
+  text-align: center; /* Center the content horizontally */
+}
+
+.social-media h2 {
+  margin-bottom: 1rem; /* Add space below the heading */
+}
+
+.social-media ul {
+  list-style: none; /* Remove default list item styling */
+  padding: 0; /* Remove default padding */
+}
+
+.social-media li {
+  display: inline-block; /* Display list items inline */
+  margin: 0 1rem; /* Add space between list items */
+}
+
+.social-media li div {
+  display: flex; /* Arrange image and text horizontally */
+  align-items: center; /* Align content vertically */
+  text-align: left; /* Align text to the left */
+}
+
+.social-media li img {
+  margin-right: 1rem; /* Add space between image and text */
+  width: 24px; /* Set image width */
+  height: 24px; /* Set image height */
+}
+
+footer {
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  font: bold Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
