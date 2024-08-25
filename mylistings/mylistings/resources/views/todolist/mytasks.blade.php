@@ -18,15 +18,18 @@
         @endif
     </div>
 
-    <div
-       <table border="1" cellpadding="10" cellspacing="0">
-            <tr><strong><b>
-                <th>ID</th>
-                <th>Title</th>
-                <th>Task</th>
-                <th>Description</th></strong</b>
-            </tr><br>
+    
+      <table border="1" cellpadding="10" cellspacing="0" style="width:450px">
+            <tr><b>
+                <td>ID</td>
+                <td>Title</td>
+                <td>Task</td>
+                <td>Description</td></b>
+            </tr>
+      </table>
+            <table border="1" cellpadding="10" cellspacing="0">
             @foreach($todolists as $todolist )
+
                 <tr>
                     <td>{{$todolist->id}}</td>
                     <td>{{$todolist->inputTitle}}</td>
@@ -37,7 +40,8 @@
                     </td>
                 </tr>
             @endforeach
-        </table>
-    </div>
+            </table>
+        
+    
   </body>
 </html>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -21,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/anchor.css') }}" >
   </head>
   <body>
+  
     <div class="desktop-1">
       <header class="navigation">
         <div class="vector-group">
@@ -38,7 +40,7 @@
         <div class="my-listing-page-parent">
           <div class="my-listing-page">MY-LISTING PAGE</div>
           <div class="contact-us">
-            <a href="../../../../../Contact_us/index.html" target="_blank">Contact Us</a>
+            <a href="todolist/contactus" target="_blank">Contact Us</a>
           </div>
         </div>
       </header>
@@ -58,13 +60,13 @@
               </div>
               <div class="button-group">
                 <div class="button">
-                  <img class="star-icon" alt="" src="./public/star.svg" />
+                  <img class="star-icon" alt="" src="../../../public/plus.png" />
 
                   <div class="button1">Button</div>
                   <img class="x-icon" alt="" src="./public/x.svg" />
                 </div>
                 <div class="button2">
-                  <img class="star-icon1" alt="" src="./public/star.svg" />
+                  <img class="star-icon1" alt="" src="../../../public/plus.png" />
 
                   <div class="button3">Button</div>
                   <img class="x-icon1" alt="" src="./public/x.svg" />

@@ -48,11 +48,15 @@ public function mytasks(){
 
     public function destroy(Todolist $todolist){
         $todolist->delete();
-        return redirect(route('todolist.mytasks'))->with('success', 'Task deleted Successfully');
+        return redirect(route('todolist.irrelevant'))->with('success', 'Task deleted Successfully');
     }
 
     public function irrelevant(){
     $todolists = Todolist::all();
      return view('todolist.irrelevant', ['todolists' => $todolists]);         
+    }
+
+    public function contactus(){
+     return view('todolist.contactus');         
     }
 }

@@ -25,3 +25,4 @@ Route::get('/todolist/{todolist}/edit', [TodolistController::class, 'edit'])->na
 Route::put('/todolist/{todolist}/update', [TodolistController::class, 'update'])->name('todolist.update');
 Route::delete('/todolist/{todolist}/destroy', [TodolistController::class, 'destroy'])->name('todolist.destroy');
 Route::get('/todolist/irrelevant', [TodolistController::class, 'irrelevant'])->name('todolist.irrelevant');
+Route::get('/todolist/contactus', [TodolistController::class, 'contactus'])->name('todolist.contactus');
